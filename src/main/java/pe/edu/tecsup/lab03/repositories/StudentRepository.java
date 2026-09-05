@@ -1,10 +1,10 @@
 package pe.edu.tecsup.lab03.repositories;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class StudentRepository {
+
+    // Se borró la línea de LSOutput que causaba la línea roja
     @Override
     public String toString() {
-        return super.toString();
+        return "Instancia de StudentRepository";
     }
 }
